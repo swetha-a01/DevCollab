@@ -12,6 +12,7 @@ Automated Testing Shield: Integrated UI automation testing suite using TestFX an
 
 📊 Complete System Blueprint (Database Schemas & Logic Codes)
 Part A: Relational Database Schemas (MySQL)
+SQL
 -- 1. Students Table Profile Info & Balances
 CREATE TABLE Students (
     student_id VARCHAR(20) PRIMARY KEY,
@@ -43,6 +44,7 @@ CREATE TABLE Messages (
     FOREIGN KEY (sender_id) REFERENCES Students(student_id)
 );
 Part B: Transaction ACID Boundaries (Java Backend)
+Java
 // Logic snippet showing ACID transaction boundary inside TaskDAO.java
 conn.setAutoCommit(false); 
 
