@@ -1,0 +1,133 @@
+/* --- Global Background Design Language --- */
+.root {
+    -fx-background-color: linear-gradient(to bottom right, #f8fafc, #f1f5f9);
+    -fx-font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+/* --- Typography & Headings --- */
+.label {
+    -fx-text-fill: #334155;
+    -fx-font-size: 13px;
+}
+.title-label {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #0f172a;
+}
+.section-title {
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #475569;
+    -fx-padding: 5 0 2 0;
+}
+
+/* --- Premium Form Text Inputs --- */
+.text-field {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 8;
+    -fx-border-color: #cbd5e1;
+    -fx-border-radius: 8;
+    -fx-border-width: 1;
+    -fx-padding: 10 14;
+    -fx-text-fill: #1e293b;
+    -fx-transition: all 0.2s ease-in-out;
+}
+.text-field:focused {
+    -fx-border-color: #3b82f6;
+    -fx-background-color: #ffffff;
+    -fx-effect: dropshadow(three-pass-box, rgba(59, 130, 246, 0.15), 5, 0, 0, 0);
+}
+
+/* --- High-End Interface Control Buttons --- */
+.button {
+    -fx-background-radius: 8;
+    -fx-padding: 10 20;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+    -fx-font-size: 13px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.05), 2, 0, 0, 1);
+}
+.btn-primary {
+    -fx-background-color: #3b82f6;
+}
+.btn-primary:hover {
+    -fx-background-color: #2563eb;
+}
+.btn-success {
+    -fx-background-color: #10b981;
+}
+.btn-success:hover {
+    -fx-background-color: #059669;
+}
+.btn-warning {
+    -fx-background-color: #f59e0b;
+}
+.btn-warning:hover {
+    -fx-background-color: #d97706;
+}
+.btn-send {
+    -fx-background-color: #6366f1;
+}
+.btn-send:hover {
+    -fx-background-color: #4f46e5;
+}
+
+/* --- Clean Rounded Cards & Lists --- */
+.list-view {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 8;
+    -fx-border-color: #e2e8f0;
+    -fx-border-radius: 8;
+    -fx-border-width: 1;
+    -fx-padding: 4;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.02), 4, 0, 0, 2);
+}
+.list-cell {
+    -fx-background-color: transparent;
+    -fx-padding: 8 12;
+    -fx-text-fill: #475569;
+    -fx-font-size: 13px;
+}
+.list-cell:filled:hover {
+    -fx-background-color: #f8fafc;
+    -fx-text-fill: #0f172a;
+    -fx-background-radius: 6;
+}
+.list-cell:filled:selected {
+    -fx-background-color: #eff6ff;
+    -fx-text-fill: #1d4ed8;
+    -fx-background-radius: 6;
+    -fx-font-weight: bold;
+}
+
+/* --- Analytics Banner Dashboard Component --- */
+.analytics-card {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 8;
+    -fx-border-color: #e2e8f0;
+    -fx-border-radius: 8;
+    -fx-border-width: 1;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.03), 6, 0, 0, 3);
+}
+.analytics-metric {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #64748b;
+    -fx-padding: 4 8;
+    -fx-background-color: #f8fafc;
+    -fx-background-radius: 4;
+}
+
+/* --- Smooth Scrolling Chat Logs --- */
+.text-area {
+    -fx-font-size: 13px;
+    -fx-text-fill: #1e293b;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #e2e8f0;
+    -fx-border-width: 1;
+    -fx-border-radius: 8;
+}
+.text-area .content {
+    -fx-background-color: #ffffff;
+}

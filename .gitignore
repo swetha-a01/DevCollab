@@ -1,0 +1,26 @@
+# --- Maven Build Artifacts ---
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+build.log
+
+# --- Eclipse IDE Specific Metadata ---
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~
+.ninja_deps
+.ninja_log
+
+# Local user adjustments (keeps your personal database passwords safe)
+.settings/
+.project
+.classpath
+.factorypath
